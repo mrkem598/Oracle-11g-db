@@ -1,7 +1,6 @@
 SPOOL Kloutput.log
 DROP TABLE Distributors CASCADE CONSTRAINTS;
 COMMIT;
-
 CREATE TABLE Distributors
 (
 	Distributors_ID NUMBER(5) PRIMARY KEY NOT NULL,
